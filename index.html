@@ -13,9 +13,9 @@
     --bg2: #0B3B9E;
     --text: #F4F6FB;
 
-    --c-publisher: #00C8FF;   /* more vivid, per request */
-    --c-content:   #FF4F9E;   /* swapped: was authority's pink */
-    --c-editorial: #8FFF1A;   /* more vivid, per request */
+    --c-publisher: #D670FF;   /* lighter shade for stronger perceived glow */
+    --c-content:   #8FFF1A;   /* swapped with Editorial Link */
+    --c-editorial: #FF4F9E;   /* reverted to final17's color */
     --c-website:   #FFD700;   /* pure gold — genuinely brighter against the dark background */
     --c-authority: #00FFFF;   /* pure cyan, as requested */
   }
@@ -49,11 +49,10 @@
     z-index: 1;
     padding: 15px 21px;
     border-radius: 12px;
-    /* Opaque gradient — solid enough that no line is ever visible behind
-       the card, but still a rich navy-blue gradient, not flat black. */
+    /* Royal Cobalt — trying this option per request */
     background:
       linear-gradient(160deg, rgba(255,255,255,.14), rgba(255,255,255,.02) 55%),
-      linear-gradient(150deg, #1240A6, #04154D);
+      linear-gradient(150deg, #1E4FD9, #0A1E5C);
     border: 1px solid rgba(255,255,255,.14);
     color: var(--text);
     font-weight: 600;
